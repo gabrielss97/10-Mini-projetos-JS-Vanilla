@@ -16,9 +16,8 @@ body {
 
 h1 {
   font-size: 4rem;
-  font-weight: normal;
+  font-weight: bold;
   margin-top: 3rem;
-  margin-block-end: 0.5rem;
 }
 
 .countdown-container {
