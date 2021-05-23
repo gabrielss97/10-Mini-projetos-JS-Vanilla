@@ -2,7 +2,7 @@
 
 ###Lista de projetos
 
-- [x] Timer App
+- [x] Countdown App
 - [] Quiz App
 - [] Recipe App
 - [] Notes App

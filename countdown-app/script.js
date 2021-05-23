@@ -16,7 +16,7 @@ function countdown() {
   const day = Math.floor(base / 3600 / 24);
   const second = Math.floor(base % 60);
 
-  // console.log(second, minute, day, hour)
+  console.log(second, minute, day, hour, base)
 
   daysEl.innerHTML = day;
   hoursEl.innerHTML = formatTime(hour);
