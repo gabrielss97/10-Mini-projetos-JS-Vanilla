@@ -33,10 +33,6 @@ h1 {
   font-weight: bold;
 }
 
-.countdown-span {
-  text-align: center;
-}
-
 .countdown-el span {
   font-size: 1.3rem;
   display: flex;

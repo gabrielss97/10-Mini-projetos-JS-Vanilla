@@ -6,12 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body></body> 
+  <body>
+    <div class="quiz-container">
+      <div class="quiz-header">
+        <h2 id="title"></h2>
+        <h3 id="question"></h3>
+        <ul>
+          <li>
+            <input type="radio" name="answer" class="answer" id="a" />
+            <label for="a" id="questionA"></label>
+          </li>
+          <li>
+            <input type="radio" name="answer" class="answer" id="b" />
+            <label for="b" id="questionB"></label>
+          </li>
+          <li>
+            <input type="radio" name="answer" class="answer" id="c" />
+
+            <label for="c" id="questionC"></label>
+          </li>
+          <li>
+            <input type="radio" name="answer" class="answer" id="d" />
+
+            <label for="d" id="questionD"></label>
+          </li>
+        </ul>
+        <p id="rightAnswer"></p>
+      </div>
+      <button id="btn">Enviar</button>
+    </div>
+    <script src="script.js" async></script>
+  </body>
 </html>
